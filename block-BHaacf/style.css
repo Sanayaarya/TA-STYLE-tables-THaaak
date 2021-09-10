@@ -1,0 +1,483 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custum.css*/
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1300px;
+  font-family: 'Poppins', sans-serif;
+}
+.flex{
+  display: flex;
+}
+
+.flex-j{
+justify-content: space-between;
+}
+.flex-48{
+  flex: 0 1 48%;
+}
+.container{
+  max-width: 1300px;
+  
+  margin: 0 auto;
+  padding: 0 32px;
+  border: 2px solid white;
+  /* height: 700px; */
+}
+header{
+  width: 100%;
+  background: linear-gradient(rgba(40, 40, 41, 0.6), rgba(40, 40, 41, 0.6));
+  position: absolute;
+  z-index: 4;
+  padding: 16px 120px;
+}
+header h1{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.orange{
+  color:#ED563A;
+}
+.colors{
+  color:#ED563A;
+}
+ .but{
+  padding: 6px 12px;
+  background-color:#ED563A;
+  color: white;
+  border: none;
+
+}
+.button{
+  padding: 12px 12px;
+  background-color:#ED563A;
+  color: white;
+  border: none;
+
+}
+ a{
+    text-decoration: 0;
+    color: white;
+    margin-right: 16px;
+  }
+  
+.my-video {
+  width: 100%;
+  position: relative;
+}
+.hero{
+  width: 100%;
+  height: 710px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+  margin: 0 auto;
+  background: linear-gradient(rgba(40, 40, 41, 0.6), rgba(40, 40, 41, 0.6));
+  
+}
+.hero h2{
+  margin-top: 300px;
+  font-size: 15px;
+  color:white;
+}
+.hero h3{
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+    padding: 20px;
+}
+.color{
+  font-size: 40px;
+  font-weight: 900;
+  color:#ED563A ;
+  
+}
+.hero-2{
+  text-align: center;
+}
+.hero-2 h2{
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.hero-2 img{
+  margin-top: 20px;
+}
+.hero-2 p{
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.flex-wrap{
+  flex-wrap:wrap ;
+}
+.parent{
+  margin-top: 50px;
+}
+.child img{
+  /* margin-left: 300px; */
+  margin: 20px;
+}
+.child h2{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0;
+  padding-top: 20px;
+  
+}
+.child p{
+  font-size: 11px;
+ padding: 5px 0;
+ line-height: 1.5;
+}
+.child h3{
+  font-size: 11px;
+  padding: 10px 0;
+  font-weight: 500;
+  color:#ED563A ;
+  
+}
+.header{
+  background-image: url(./assets/cta-bg.jpg);
+  background: cover;
+  width: 100%;
+  height: 230px;
+}
+.think{
+  text-align: center;
+  margin-top: 60px;
+}
+.oranges{
+  color: #ED563A;
+}
+.think h2{
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.think p{
+  margin-top: -30px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: white;
+}
+.buttons{
+  padding: 12px 12px;
+  background-color:#ED563A;
+  color: white;
+  border: none;
+  margin-top: 20px;
+
+}
+.class{
+  height: 500px;
+  width: 100%;
+ 
+  margin-top: 50px;
+}
+.our-1{
+  height: 400px;
+  width: 30%;
+  margin-left: 120px;
+ 
+}
+.our-2{
+  height: 400px;
+  width: 60%;
+  
+}
+.boxes{
+  height: 60px;
+  width: 80%;
+  box-shadow: 0px 0px 1px 4px rgba(187, 186, 186, 0.1);
+  /* box-shadow: 1px 1px #888888; */
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.boxes h2{
+  font-size: 15px;
+  font-weight: 700;
+  color: #ED563A;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.boxes h3{
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin-left: 20px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+.boxes img{
+  height: 40px;
+  width: 15%;
+  margin-left: 20px;
+  margin-top: 10px;
+  
+}
+.boxing{
+  width: 80%;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color:#ED563A ;
+}
+.boxing h4{
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px;
+  margin-left: 50px;
+}
+.our-2 img{
+  height: 200px;
+  width: 80%;
+}
+.our-2 h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.our-2 p{
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.buttons{
+  padding: 12px 12px;
+  background-color:#ED563A;
+  color: white;
+  border: none;
+  margin-top: 20px;
+
+}
+.table{
+  background-image: url(./assets/schedule-bg.jpg);
+  background: cover;
+  width: 100%;
+  height: 700px;
+  
+}
+.hero-3{
+  text-align: center;
+}
+.hero-3 h2{
+  font-size: 25px;
+  font-weight: 600;
+  padding-top: 100px;
+  color: white;
+}
+.hero-3 img{
+  margin-top: 20px;
+}
+.hero-3 p{
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: white;
+}
+.hero-3 h3{
+  font-size: 15px;
+  color: white;
+  margin-top: 100px;
+
+}
+.second-last{
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+.boxer{
+  height: 400px;
+  width: 30%;
+  margin-left: 50px;
+  box-shadow: 0px 0px 1px 4px rgba(187, 186, 186, 0.1);
+}
+
+.boxer img{
+    height: 200px;
+    width:80% ;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.boxer h2{
+  font-size: 15px;
+  color: #ED563A;
+  margin-top: 10px;
+  margin-left: 35px;
+
+}
+.boxer h3{
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  margin-top: 10px;
+  margin-left: 35px;
+
+}
+.boxer p{
+  font-size: 12px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 35px;
+  line-height: 1.5;
+
+}
+.logo{
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+
+.map {
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  
+}
+.min{
+  height: 360px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.last-box{
+  background-image: url(./assets/contact-bg.jpg);
+  padding: 20px;
+   height: 440px;
+  width: 40%;
+  background-color: white;
+  position: absolute;
+  left: 750px;
+  top: 5px;
+}
+footer{
+  text-align: center;
+  color:black;
+   padding: 20px 0;
+ 
+}
+
+.arrow{
+  height: 20px;
+  width: 20%;
+  background-color: rgb(51, 49, 49);
+}
+.last-box button{
+  background-color:#ED563A;
+  height: 30px;
+  width: 30%;
+  border: 0;
+  margin-top: 20px;
+  margin-left: 15px;
+  color: white;
+}
+.name{
+  height: 40px;
+  width: 45%;
+  margin-left: 15px;
+  border: 1px solid black;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 1px 4px rgba(187, 186, 186, 0.1);
+      
+}
+.sub{
+  height: 40px;
+  width: 95%;
+  margin-left: 10px;
+  border: 1px solid black;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 1px 4px rgba(187, 186, 186, 0.1);
+}
+.message{
+  height: 150px;
+  border: 1px solid black;
+  width: 95%;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 1px 4px rgba(187, 186, 186, 0.1);
+}
+
+table{
+  border: 2px solid ;
+  font-size: 15px;
+  color: white;
+  width: 700px;
+  border-spacing: 20px;
+  margin-left: 270px;
+  margin-top: 50px;
+}
+td,
+th{
+  border: 2px solid;
+  padding: 16px;
+}
+caption{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
